@@ -1,12 +1,12 @@
-# Endee Semantic Search Project
+# Semantic Search Project
 
-This AI application implements a high-performance **Semantic Search** system powered by the **Endee Vector Database**. It enables searching through text documents based on their underlying meaning and intent, rather than relying solely on literal keyword matching.
+This AI application implements a high-performance **Semantic Search** system powered by the ** Vector Database**. It enables searching through text documents based on their underlying meaning and intent, rather than relying solely on literal keyword matching.
 
 ## Key Features
 
 - **Semantic Vector Search**: Uses state-of-the-art embeddings to find relevant content even when search terms don't match exactly.
 - **Similarity Recommendations**: "Find Similar" feature to explore related segments of the knowledge base.
-- **High-Performance Storage**: Leverages **Endee** for sub-millisecond vector retrieval.
+- **High-Performance Storage**: Leverages for sub-millisecond vector retrieval.
 - **Premium UI**: Modern, responsive interface with real-time match scores.
 
 ## 📸 App Screenshots
@@ -80,7 +80,7 @@ The application is fully containerized for consistent deployment. Below is the c
 ### Containers & Services
 | Service Name | Image | Port Mapping | Status |
 | :--- | :--- | :--- | :--- |
-| **endee-server** | `endeeio/endee-server:latest` | `8080:8080` | Running |
+| **server** | `endeeio/endee-server:latest` | `8080:8080` | Running |
 | **project-web** | `project-web:latest` | `5000:5000` | Running |
 
 ### Volumes & Persistence
@@ -143,8 +143,8 @@ Overview of the <b>semantic_docs</b> vector index configured with 384-dimensiona
 └── run_on_windows.bat      # Automated Launcher
 ```
 
-## How Endee is Used
-Endee serves as the core engine for this project. We interact with its API to:
+## How Vector Database is Used
+ serves as the core engine for this project. We interact with its API to:
 - **Manage Collections**: Dynamically create and drop indexes.
 - **Vector Storage**: Store 384-dimension document embeddings with JSON payloads.
 - **Vector Search**: Perform lightning-fast cosine similarity searches for query vectors.
