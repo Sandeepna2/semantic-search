@@ -9,7 +9,7 @@ This AI application implements a high-performance **Semantic Search** system pow
 - **High-Performance Storage**: Leverages for sub-millisecond vector retrieval.
 - **Premium UI**: Modern, responsive interface with real-time match scores.
 
-## 📸 App Screenshots
+## 📸 App Screenshots 
 <table> 
    <tr> 
       <td align="center"> 
