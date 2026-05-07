@@ -1,4 +1,4 @@
-# Semantic Search Project
+# Semantic Search Project 
 
 This AI application implements a high-performance **Semantic Search** system powered by the ** Vector Database**. It enables searching through text documents based on their underlying meaning and intent, rather than relying solely on literal keyword matching.
 
