@@ -3,7 +3,7 @@
 This AI application implements a high-performance **Semantic Search** system powered by the ** Vector Database**. It enables searching through text documents based on their underlying meaning and intent, rather than relying solely on literal keyword matching.
 
 ## Key Features
-
+ 
 - **Semantic Vector Search**: Uses state-of-the-art embeddings to find relevant content even when search terms don't match exactly.
 - **Similarity Recommendations**: "Find Similar" feature to explore related segments of the knowledge base.
 - **High-Performance Storage**: Leverages for sub-millisecond vector retrieval.
